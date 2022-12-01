@@ -10,7 +10,7 @@ const SingUp = () => {
     password: "",
   });
 
-  const [error, setError] = userState("");
+  const [error, setError] = useState("");
   const navigate = useNavigate();
 
   const handleChange = ({ currentTarget: input }) => {
